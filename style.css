@@ -16,7 +16,7 @@
     background-position: center;
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -28,17 +28,19 @@
     border-radius: 60px;
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(4px) saturate(180%);
+    margin-top: 25vh;
+    z-index: 1;
 }
 
 .search-bar input{
-    background: transparent;
+    background: rgba(0,0,0,0);
     flex: 1;
     border: 0;
     outline: none;
     padding: 24px 20px;
     font-size: 20px;
     color:#cac7ff;
+    border-radius: 60px;
 }
 
 ::placeholder{
@@ -72,3 +74,4 @@
     position: fixed;
     margin-top: 20px;
 }
+
