@@ -1,4 +1,4 @@
-document.body.style.zoom="95%"
+document.body.style.zoom="90%"
 
 function displayTime(){
     var dateTime = new Date();
